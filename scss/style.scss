@@ -1,0 +1,191 @@
+div.container {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Georgia;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+div.nav {
+  //display: inline-block;
+  display: flex;
+  width: 958px;
+  border: black solid 1px;
+  background-color: cornflowerblue;
+}
+
+ul.navbar {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 2% 0 0;
+  background-color: cornflowerblue;
+}
+
+li {
+  a {
+    /*color: white;
+    text-decoration: none;
+    padding: 5%;*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}
+
+li {
+  a:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+  }
+}
+
+form {
+  margin-top: 1.5%;
+  margin-left: 31%;
+}
+
+img.headerimg {
+  width: 960px;
+  height: 270px;
+  display: block;
+}
+
+p.headertext {
+  margin: 0;
+  padding-left: 1%;
+  display: flex;
+  font-size: x-large;
+  background-color: cornflowerblue;
+}
+
+div.header {
+  margin-top: 2%;
+  width: 960px;
+}
+
+div.headercontent {
+  margin-top: 2%;
+  display: inline-block;
+  margin-right: 1.667%;
+  color: white;
+}
+
+div.headercontent2 {
+  display: inline-block;
+  color: white;
+}
+
+img.headercontentimg {
+  width: 225px;
+  height: 80px;
+  display: block;
+}
+
+p.headercontenttext {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+div.main {
+  width: 66%;
+  color: lightskyblue;
+  float: left;
+}
+
+div.maincontent {
+  width: 49%;
+  display: inline-block;
+}
+
+img.mainimg {
+  width: 300px;
+  height: 150px;
+}
+
+p.mainlink {
+  margin: 0;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding-left: 1%;
+}
+
+div.aside {
+  width: 33%;
+  float: right;
+  color: lightskyblue;
+}
+
+div.asidecontent {
+
+}
+
+img.asideimg {
+  width: 80px;
+  height: 80px;
+  border: groove 4px;
+  float: left;
+  margin-right: 2%;
+}
+
+p.asidelink {
+  margin: 0;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding-left: 1%;
+}
+
+div.asidegallery {
+
+}
+
+img.asidegalleryimg {
+  border: groove 4px;
+  width: 80px;
+  height: 80px;
+}
+
+div.footer {
+  float: left;
+  background-color: #b8dedd;
+}
+
+div.footeremail {
+  width: 35%;
+  float: left;
+}
+
+div.footercontent {
+  width: 20%;
+  float: left;
+  margin-left: 1%;
+}
+
+div.copyright {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  float:left;
+  width: 98%;
+  background-color: cornflowerblue;
+  padding-left: 1%;
+}
